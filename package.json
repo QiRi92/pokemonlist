@@ -1,0 +1,25 @@
+{
+  "name": "vue-pokemon-app",
+  "version": "1.0.0",
+  "homepage": "https://QiRi92.github.io/pokemonlist",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "gh-pages": "^6.3.0",
+    "vite": "^5.2.10",
+    "vite-plugin-static-copy": "^3.1.1"
+  }
+}
